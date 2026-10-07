@@ -29,7 +29,12 @@ Everything below marked **(open)** is for the developer and the Valv orchestrato
    **(open)** The format of fake values; how a repeated hit is escalated.
 5. **Capture:** outbound API traffic is captured, stripped and handed to the caller (Hylla's
    audit system). Valv only strips, catches and routes; it does no analysis itself.
-6. **Folder access (later):** user-approved folder access per level, narrowed the same way.
+6. **Access to the system, per level:** user-approved access, narrowed the same way when handed
+   down. This covers folders and macOS permissions the host app holds, such as Screen Recording,
+   Accessibility, Automation and Full Disk Access. A permission macOS grants to the host app
+   (Hylla, or a terminal) reaches every agent it starts unless Valv narrows it, so each level
+   declares which of them its agents may use. Example: a UI-research agent may capture one app's
+   window; a coding agent in the same app may not.
 
 ## Rules for the shape
 - The public API is small and stable. Internals stay private.
