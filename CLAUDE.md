@@ -48,7 +48,7 @@ them. What and why: `Valv-Initial-Idea.md`. How it is built: `ARCHITECTURE.md`.
 - Author your cards and comments as `valv`.
 
 ## Working with the other sessions
-- Three sessions plan together, in this priority: `hylla-main` (the Hylla orchestrator) first,
+- Three sessions plan together, in this priority: `orch` (the Hylla orchestrator) first,
   `planner` second, `valv` (you) third. When you disagree, the higher one decides; anything for
   the developer still goes on the board.
 - Until the board can address sessions, talk to them with SendMessage, by those names.
