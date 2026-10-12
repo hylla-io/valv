@@ -4,8 +4,7 @@
 (https://aihero.dev/how-to-make-codebases-ai-agents-love). Build Valv as a few DEEP modules: a
 lot of behaviour behind small, simple interfaces, with fast tests on each interface.
 
-**Ruled** items come from the developer (Hylla rulings DL-621, DL-622, and his answers on the
-board). Everything marked **(open)** is still for the developer to settle in the planning
+**Ruled** items come from the developer (Hylla rulings DL-621, DL-622 and DL-624). Everything marked **(open)** is still for the developer to settle in the planning
 walkthrough.
 
 ## What Valv is (ruled)
